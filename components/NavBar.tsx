@@ -33,13 +33,13 @@ export default function NavBar() {
 					)}
 					<div className=''>
 						{session ? (
-							<Link href={'/api/auth/signout'}>
+							<Link href='/api/auth/signout'>
 								<a className='text-xl font-bold'>
 									<p>Sign Out</p>
 								</a>
 							</Link>
 						) : (
-							<Link href={'/api/auth/signin'}>
+							<Link href='/api/auth/signin'>
 								<a className='text-xl font-bold'>
 									<p>Sign In</p>
 								</a>
